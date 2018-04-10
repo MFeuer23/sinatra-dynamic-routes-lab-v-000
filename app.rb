@@ -17,5 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     "#{@phrase * @number}"
   end
+  
+  get ""
 
 end
